@@ -1,3 +1,8 @@
+# MSP430 Examples from TI
+This directory contains some examples that were (and maybe still are) available from the Texas Instruments website. Use these examples as a guideline of how to program the MSP430F2274 microcontroller.   
+Some (if not all) examples are released under the Revised BSD License. Please check the content of each file for its corresponding license.
+
+
 File Name                     |                                  Description
 ------------------------------|---------------------------------------------------------
 msp430x22x4_1.c               |               Software Toggle P1.0
@@ -49,7 +54,7 @@ msp430x22x4_p1_01.c           |             Software Poll P1.2, Set P1.0 if P1.2
 msp430x22x4_p1_02.c           |             Software Port Interrupt Service on P1.2 from LPM4
 msp430x22x4_p1_03.c           |             Poll P1.2 With Software with Internal Pull-up
 msp430x22x4_p1_04.c           |             P1.2 Interrupt from LPM4 with Internal Pull-up
-msp430x22x4_rosc.c           |    |              DCOCLK Biased with External Resistor Rosc
+msp430x22x4_rosc.c           |                  DCOCLK Biased with External Resistor Rosc
 msp430x22x4_ta_01.c           |             Timer_A, Toggle P1.0, TACCR0 Cont. Mode ISR, DCO SMCLK
 msp430x22x4_ta_02.c           |             Timer_A, Toggle P1.0, TACCR0 Up Mode ISR, DCO SMCLK
 msp430x22x4_ta_03.c           |             Timer_A, Toggle P1.0, Overflow ISR, DCO SMCLK
